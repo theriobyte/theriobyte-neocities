@@ -1,0 +1,28 @@
+:root{
+    --textcolor:rgb(0, 0, 0);
+    --container:rgb(256, 256, 256);
+    --linkcolor:rgb(0, 5, 57);
+}
+@font-face{
+    font-family: univers67;
+    src: url(assets/Univers\ 67\ Condensed\ Bold.otf) format('otf');
+}
+body{
+    font-family: univers67;
+    background-color: rgb(0, 0, 0);
+    margin-top: 25px;
+    background-image: url(assets/num.gif);
+}
+body a{
+    color: var(--linkcolor);
+}
+.main-container {
+    background-color:var(--container);
+    color: var(--textcolor);
+    margin: 5px;
+    padding:17px;
+    box-shadow: rgb(255, 255, 255) 0px 2px 4px 0px, rgb(255, 255, 255) 0px 2px 16px 0px;
+}
+.main-container h1{
+    text-align: center;
+}
