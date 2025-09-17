@@ -16,6 +16,9 @@ body{
 body a{
     color: var(--linkcolor);
 }
+body img{
+    max-width: 100%;
+}
 .main-container {
     background-color:var(--container);
     color: var(--textcolor);
