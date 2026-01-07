@@ -1,6 +1,6 @@
 :root{
     --textcolor:rgb(0, 0, 0);
-    --container:rgb(256, 256, 256);
+    --container:rgb(255, 255, 255);
     --linkcolor:rgb(0, 5, 57);
 }
 @font-face{
@@ -15,6 +15,8 @@ body{
     margin-right: auto;
     margin-bottom: 5%;
     background-image: url(assets/num.gif);
+    margin-top: 20px;
+    
     
 }
 body a{
@@ -28,8 +30,12 @@ body img{
     color: var(--textcolor);
     margin: 5px;
     padding:17px;
-    box-shadow: rgb(255, 255, 255) 0px 2px 4px 0px, rgb(255, 255, 255) 0px 2px 16px 0px;
+    box-shadow: var(--container) 0px 2px 4px 0px, var(--container) 0px 2px 16px 0px;
 }
 .main-container h1{
     text-align: center;
+}
+.buttonbox img{
+    max-height: 30px;
+    max-width: fit-content;
 }
